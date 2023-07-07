@@ -8,5 +8,63 @@
 		<script src="./js/index.js" defer></script>
 		<title>Content Tab</title>
 	</head>
-	<body></body>
+	<body>
+		<!-- Outer Wrapper -->
+		<div class="min-h-screen bg-slate-900 px-6 py-6 text-slate-100">
+			<h1 class="text-center text-4xl">How our company can help you</h1>
+			<!-- Tabs Container -->
+			<div class="space-y-10">
+				<ul class="flex cursor-pointer items-center justify-around space-x-1 pt-6" aria-labelledby="tabs-title">
+					<li class="nav-link group">
+						<a id="tab-1" class="text-xl group-hover:text-slate-800" href="#advertising">Advertising</a>
+					</li>
+					<li class="nav-link group">
+						<a id="tab-2" class="text-xl group-hover:text-slate-800" href="#social-media">Socials</a>
+					</li>
+					<li class="nav-link group">
+						<a id="tab-3" class="text-xl group-hover:text-slate-800" href="#content-marketing">Marketing</a>
+					</li>
+					<li class="nav-link group">
+						<a id="tab-4" class="text-xl group-hover:text-slate-800" href="#email">Email</a>
+					</li>
+				</ul>
+
+				<!-- Tab Panels Wrapper -->
+				<div class="tabs__panels flow conatiner mx-auto space-y-3">
+					<!-- Tab Panel 1 -->
+					<div id="advertising" class="tab" aria-labelledby="tab-1">
+						<h2 class="text-2xl font-semibold">Advertising</h2>
+						<p>
+							A marketing company can use targeted advertising to reach specific audiences based on demographics, interests, and
+							behaviours. Thie can increase the effectiveness of advertising compaigns and improve return on investment.
+						</p>
+					</div>
+					<!-- Tab Panel 2 -->
+					<div id="social-media" class="tab" aria-labelledby="tab-2">
+						<h2 class="text-2xl font-semibold">Socials</h2>
+						<p>
+							A marketing comapny can laverage social media platforms to engage with customers and promote products or services. Social
+							media can also be used to gather customer feedback and insights to inform future marketing startegies.
+						</p>
+					</div>
+					<!-- Tab Panel 3 -->
+					<div id="content-marketing" class="tab" aria-labelledby="tab-3">
+						<h2 class="text-2xl font-semibold">Marketing</h2>
+						<p>
+							A marketing comapny can use content marketing to atract and retain customers by creating and sharing valuable and relevant
+							content. This can help to establish the comapny as a thought leader in its industry and build trust with customers.
+						</p>
+					</div>
+					<!-- Tab Panel 4 -->
+					<div id="email" class="tab" aria-labelledby="tab-4">
+						<h2 class="text-2xl font-semibold">Email</h2>
+						<p>
+							A marketing comapny can use email campaigns to communicate with customers and promote products or services. Email
+							campaigns can be personalized and targeted to specific audiences to increase their effectiveness.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
